@@ -4,7 +4,7 @@ import CountryList from "./Components/CountryList/CountryList";
 const App: React.FC = () => {
   return (
     <div>
-      <h1>Country List</h1>
+      <h3 style={{ padding: "20px" }}>Country List</h3>
       <CountryList />
     </div>
   );
